@@ -31,50 +31,59 @@ body,html{
 }
 .pimg3{
 	background-image:url("images/img3.jpg");
-	min-height:400px;
+	min-height:400px
 }
 .section{
-	text-align:center;
-	padding:50px 80px;
+  text-align:center;
+  padding:50px 80px;
 }
+
 .section-light{
-	background-color:#F4F4F4;
-	color:#666666;
+  background-color:#f4f4f4;
+  color:#666;
 }
+
 .section-dark{
-	background-color:#282e34;
-	color:#ddd;
+  background-color:#282e34;
+  color:#ddd;
 }
+
 .ptext{
-	postion:absolute;
-	top:50%;
-	width:100%;
-	text-align:center;
-	color:#000000;
-	font-size:27px;
-	letter-spacing:8px;
-	text-transform:uppercase;
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
 }
+
 .ptext .border{
-	background-color:#111;
-	color:#fff;
-	padding:20px;
+  background-color:#111;
+  color:#fff;
+  padding:20px;
 }
-.ptext .border .trans{
-	background-color:transparent;
+
+.ptext .border.trans{
+  background-color:transparent;
 }
+
 a{
-	color:#fff;
-	text-decoration:none;
+  color: #fff;
+  text-decoration: none;
 }
-a:visited{
-	color:rgb(0,225,255);
+
+a:visited {
+  color: rgb(0, 225, 255);
 }
+
 a:hover{
-	color:rgb(0.162,255);
+  color: rgb(0, 162, 255);
 }
-@media(max-width:568){
-	.pimg1,.pimg2,.pimg3{
-		background-attachment:scroll;
-	}
+
+@media(max-width:568px){
+  .pimg1, .pimg2, .pimg3{
+    background-attachment:scroll;
+  }
 }
